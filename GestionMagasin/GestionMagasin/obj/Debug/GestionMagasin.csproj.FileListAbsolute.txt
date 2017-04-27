@@ -1,0 +1,73 @@
+C:\Users\Hanae\Desktop\GestionMagasin\GestionMagasin\bin\Debug\GestionMagasin.exe.config
+C:\Users\Hanae\Desktop\GestionMagasin\GestionMagasin\bin\Debug\GestionMagasin.exe
+C:\Users\Hanae\Desktop\GestionMagasin\GestionMagasin\bin\Debug\GestionMagasin.pdb
+C:\Users\Hanae\Desktop\GestionMagasin\GestionMagasin\bin\Debug\EntityFramework.dll
+C:\Users\Hanae\Desktop\GestionMagasin\GestionMagasin\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Hanae\Desktop\GestionMagasin\GestionMagasin\bin\Debug\EntityFramework.xml
+C:\Users\Hanae\Desktop\GestionMagasin\GestionMagasin\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Hanae\Desktop\GestionMagasin\GestionMagasin\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\Hanae\Desktop\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.Form1.resources
+C:\Users\Hanae\Desktop\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.Gestioncategorie.FormCategorie.resources
+C:\Users\Hanae\Desktop\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.Gestioncategorie.FormGestionCategorie.resources
+C:\Users\Hanae\Desktop\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.Gestioncategorie.GridCategorie.resources
+C:\Users\Hanae\Desktop\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.GestionEmplacement.FormEmplacement.resources
+C:\Users\Hanae\Desktop\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.GestionEmplacement.GridEmplacement.resources
+C:\Users\Hanae\Desktop\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.GestionLivraison.FormLivraison.resources
+C:\Users\Hanae\Desktop\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.GestionMatriel.FormGestionMateriel.resources
+C:\Users\Hanae\Desktop\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.GestionMatriel.FormMatriel.resources
+C:\Users\Hanae\Desktop\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.GestionMatriel.MaterielGrid.resources
+C:\Users\Hanae\Desktop\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.GestionSociete.FormGestionSociete.resources
+C:\Users\Hanae\Desktop\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.GestionSociete.FormSociete.resources
+C:\Users\Hanae\Desktop\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.GestionSociete.SocieteGrid.resources
+C:\Users\Hanae\Desktop\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.Properties.Resources.resources
+C:\Users\Hanae\Desktop\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.csproj.GenerateResource.Cache
+C:\Users\Hanae\Desktop\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.exe
+C:\Users\Hanae\Desktop\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.pdb
+C:\Users\Hanae\Desktop\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.GestionEmplacement.FormGeEmplacement.resources
+C:\Users\Hanae\Desktop\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.GestionLivraison.FormGestionLivraison.resources
+C:\Users\Hanae\Desktop\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.GestionLivraison.GridLivraison.resources
+C:\Users\Hanae\Desktop\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.GestionService.FormGestionService.resources
+C:\Users\Hanae\Desktop\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.GestionService.FormService.resources
+C:\Users\Hanae\Desktop\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.GestionService.GridService.resources
+C:\Users\Hanae\Desktop\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.Migrations.InitialCreate.resources
+C:\Users\Hanae\Desktop\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.csprojResolveAssemblyReference.cache
+C:\Users\Hanae\Desktop\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.GestionEntrerSortie.FormMatChoix.resources
+C:\Users\Hanae\Desktop\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.GestionEntrerSortie.FormSortie.resources
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\bin\Debug\GestionMagasin.exe.config
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.exe
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.pdb
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\bin\Debug\GestionMagasin.exe
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\bin\Debug\GestionMagasin.pdb
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\bin\Debug\EntityFramework.dll
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\bin\Debug\EntityFramework.xml
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.csprojResolveAssemblyReference.cache
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.Form1.resources
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.GestionEntrerSortie.FormMatChoix.resources
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.GestionEntrerSortie.FormSortie.resources
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.Gestioncategorie.FormCategorie.resources
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.Gestioncategorie.FormGestionCategorie.resources
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.Gestioncategorie.GridCategorie.resources
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.GestionEmplacement.FormEmplacement.resources
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.GestionEmplacement.FormGeEmplacement.resources
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.GestionEmplacement.GridEmplacement.resources
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.GestionLivraison.FormGestionLivraison.resources
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.GestionLivraison.FormLivraison.resources
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.GestionLivraison.GridLivraison.resources
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.GestionMatriel.FormGestionMateriel.resources
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.GestionMatriel.FormMatriel.resources
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.GestionMatriel.MaterielGrid.resources
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.GestionService.FormGestionService.resources
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.GestionService.FormService.resources
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.GestionService.GridService.resources
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.GestionSociete.FormGestionSociete.resources
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.GestionSociete.FormSociete.resources
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.GestionSociete.SocieteGrid.resources
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.Migrations.InitialCreate.resources
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.Properties.Resources.resources
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.csproj.GenerateResource.Cache
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.GestionForm.GestionEmplacement.FormEmplacement.resources
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.GestionForm.GestionEmplacement.FormGestionEmplacement.resources
+C:\Users\Hanae\Desktop\Gestion_De_Magasin V3\GestionMagasin\GestionMagasin\obj\Debug\GestionMagasin.GestionForm.GestionEmplacement.GridEmplacement.resources
