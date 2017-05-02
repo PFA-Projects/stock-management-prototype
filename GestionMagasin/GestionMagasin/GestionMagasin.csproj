@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2CE4CEFF-D4CD-4EAC-A5FB-A1BD7C9FB285}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GestionMagasin</RootNamespace>
+    <AssemblyName>GestionMagasin</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classe\Categorie_Matriel.cs" />
+    <Compile Include="Classe\Emplacement.cs" />
+    <Compile Include="Classe\EntrerSortieMatriel.cs" />
+    <Compile Include="Classe\Livraison.cs" />
+    <Compile Include="Classe\Matriel.cs" />
+    <Compile Include="Classe\Personne.cs" />
+    <Compile Include="Classe\Service.cs" />
+    <Compile Include="Classe\Societe.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionEntrerSortie\FormMatChoix.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionEntrerSortie\FormMatChoix.Designer.cs">
+      <DependentUpon>FormMatChoix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionEntrerSortie\FormSortie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionEntrerSortie\FormSortie.Designer.cs">
+      <DependentUpon>FormSortie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionEntrerSortie\ServiceEntrerSortie.cs" />
+    <Compile Include="GestionForm\Gestioncategorie\FormCategorie.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GestionForm\Gestioncategorie\FormCategorie.Designer.cs">
+      <DependentUpon>FormCategorie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionForm\Gestioncategorie\FormGestionCategorie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionForm\Gestioncategorie\FormGestionCategorie.Designer.cs">
+      <DependentUpon>FormGestionCategorie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionForm\Gestioncategorie\GridCategorie.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GestionForm\Gestioncategorie\GridCategorie.Designer.cs">
+      <DependentUpon>GridCategorie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionForm\Gestioncategorie\ServiceCategorie.cs" />
+    <Compile Include="GestionForm\GestionEmplacement\FormEmplacement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GestionForm\GestionEmplacement\FormEmplacement.Designer.cs">
+      <DependentUpon>FormEmplacement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionForm\GestionEmplacement\FormGestionEmplacement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionForm\GestionEmplacement\FormGestionEmplacement.Designer.cs">
+      <DependentUpon>FormGestionEmplacement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionForm\GestionEmplacement\GridEmplacement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GestionForm\GestionEmplacement\GridEmplacement.Designer.cs">
+      <DependentUpon>GridEmplacement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionForm\GestionEmplacement\ServiceEmplacement.cs" />
+    <Compile Include="GestionForm\GestionMatriel\GestionEmplacement\FormEmplacement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GestionForm\GestionMatriel\GestionEmplacement\FormEmplacement.Designer.cs">
+      <DependentUpon>FormEmplacement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionForm\GestionMatriel\GestionEmplacement\FormGeEmplacement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionForm\GestionMatriel\GestionEmplacement\FormGeEmplacement.Designer.cs">
+      <DependentUpon>FormGeEmplacement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionForm\GestionMatriel\GestionEmplacement\GridEmplacement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GestionForm\GestionMatriel\GestionEmplacement\GridEmplacement.Designer.cs">
+      <DependentUpon>GridEmplacement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionForm\GestionMatriel\GestionEmplacement\ServiceEmplacement.cs" />
+    <Compile Include="GestionForm\GestionLivraison\FormGestionLivraison.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionForm\GestionLivraison\FormGestionLivraison.Designer.cs">
+      <DependentUpon>FormGestionLivraison.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionForm\GestionLivraison\FormLivraison.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GestionForm\GestionLivraison\FormLivraison.Designer.cs">
+      <DependentUpon>FormLivraison.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionForm\GestionLivraison\GridLivraison.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GestionForm\GestionLivraison\GridLivraison.Designer.cs">
+      <DependentUpon>GridLivraison.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionForm\GestionLivraison\ServiceLivraison.cs" />
+    <Compile Include="GestionForm\GestionMatriel\FormGestionMateriel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionForm\GestionMatriel\FormGestionMateriel.Designer.cs">
+      <DependentUpon>FormGestionMateriel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionForm\GestionMatriel\FormMatriel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GestionForm\GestionMatriel\FormMatriel.Designer.cs">
+      <DependentUpon>FormMatriel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionForm\GestionMatriel\MaterielGrid.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GestionForm\GestionMatriel\MaterielGrid.Designer.cs">
+      <DependentUpon>MaterielGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionForm\GestionMatriel\ServiceMatriel.cs" />
+    <Compile Include="GestionForm\GestionService\FormGestionService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionForm\GestionService\FormGestionService.Designer.cs">
+      <DependentUpon>FormGestionService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionForm\GestionService\FormService.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GestionForm\GestionService\FormService.Designer.cs">
+      <DependentUpon>FormService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionForm\GestionService\GridService.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GestionForm\GestionService\GridService.Designer.cs">
+      <DependentUpon>GridService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionForm\GestionService\ServiceServices.cs" />
+    <Compile Include="GestionForm\GestionSociete\FormGestionSociete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionForm\GestionSociete\FormGestionSociete.Designer.cs">
+      <DependentUpon>FormGestionSociete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionForm\GestionSociete\FormSociete.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GestionForm\GestionSociete\FormSociete.Designer.cs">
+      <DependentUpon>FormSociete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionForm\GestionSociete\ServiceSocietes.cs" />
+    <Compile Include="GestionForm\GestionSociete\SocieteGrid.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GestionForm\GestionSociete\SocieteGrid.Designer.cs">
+      <DependentUpon>SocieteGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201704200931436_InitialCreate.cs" />
+    <Compile Include="Migrations\201704200931436_InitialCreate.Designer.cs">
+      <DependentUpon>201704200931436_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Model\ModelMagazin.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionEntrerSortie\FormMatChoix.resx">
+      <DependentUpon>FormMatChoix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionEntrerSortie\FormSortie.resx">
+      <DependentUpon>FormSortie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionForm\Gestioncategorie\FormCategorie.resx">
+      <DependentUpon>FormCategorie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionForm\Gestioncategorie\FormGestionCategorie.resx">
+      <DependentUpon>FormGestionCategorie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionForm\Gestioncategorie\GridCategorie.resx">
+      <DependentUpon>GridCategorie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionForm\GestionEmplacement\FormEmplacement.resx">
+      <DependentUpon>FormEmplacement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionForm\GestionEmplacement\FormGestionEmplacement.resx">
+      <DependentUpon>FormGestionEmplacement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionForm\GestionEmplacement\GridEmplacement.resx">
+      <DependentUpon>GridEmplacement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionForm\GestionMatriel\GestionEmplacement\FormEmplacement.resx">
+      <DependentUpon>FormEmplacement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionForm\GestionMatriel\GestionEmplacement\FormGeEmplacement.resx">
+      <DependentUpon>FormGeEmplacement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionForm\GestionMatriel\GestionEmplacement\GridEmplacement.resx">
+      <DependentUpon>GridEmplacement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionForm\GestionLivraison\FormGestionLivraison.resx">
+      <DependentUpon>FormGestionLivraison.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionForm\GestionLivraison\FormLivraison.resx">
+      <DependentUpon>FormLivraison.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionForm\GestionLivraison\GridLivraison.resx">
+      <DependentUpon>GridLivraison.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionForm\GestionMatriel\FormGestionMateriel.resx">
+      <DependentUpon>FormGestionMateriel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionForm\GestionMatriel\FormMatriel.resx">
+      <DependentUpon>FormMatriel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionForm\GestionMatriel\MaterielGrid.resx">
+      <DependentUpon>MaterielGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionForm\GestionService\FormGestionService.resx">
+      <DependentUpon>FormGestionService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionForm\GestionService\FormService.resx">
+      <DependentUpon>FormService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionForm\GestionService\GridService.resx">
+      <DependentUpon>GridService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionForm\GestionSociete\FormGestionSociete.resx">
+      <DependentUpon>FormGestionSociete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionForm\GestionSociete\FormSociete.resx">
+      <DependentUpon>FormSociete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionForm\GestionSociete\SocieteGrid.resx">
+      <DependentUpon>SocieteGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201704200931436_InitialCreate.resx">
+      <DependentUpon>201704200931436_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\GestionMagasin.Classe.Categorie_Matriel.datasource" />
+    <None Include="Properties\DataSources\GestionMagasin.Classe.Emplacement.datasource" />
+    <None Include="Properties\DataSources\GestionMagasin.Classe.EntrerSortieMatriel.datasource" />
+    <None Include="Properties\DataSources\GestionMagasin.Classe.Livraison.datasource" />
+    <None Include="Properties\DataSources\GestionMagasin.Classe.Matriel.datasource" />
+    <None Include="Properties\DataSources\GestionMagasin.Classe.Service.datasource" />
+    <None Include="Properties\DataSources\GestionMagasin.Classe.Societe.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_bleu.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
